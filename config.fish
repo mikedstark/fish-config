@@ -1,7 +1,10 @@
 #Fish-Config
 
+#set -g theme_powerline_fonts no
+#set -g theme_nerd_fonts yes
+
 #Remove greeting
-set fish_greeting
+#set fish_greeting
 
 alias c="clear"
 alias rr="source ~/.config/fish/config.fish"
@@ -17,5 +20,7 @@ alias pip='python3 -m pip'
 #Git
 alias gs="git status"
 alias ga="git add -u"
+alias g='git'
+alias c='commit -m'
 
 thefuck --alias | source
