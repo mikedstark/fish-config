@@ -20,7 +20,5 @@ alias pip='python3 -m pip'
 #Git
 alias gs="git status"
 alias ga="git add -u"
-alias g='git'
-alias c='commit -m'
-
+alias gc='git commit -m'
 thefuck --alias | source
