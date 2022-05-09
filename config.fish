@@ -19,5 +19,10 @@ alias pip='python3 -m pip'
 alias gs="git status"
 alias ga="git add -u"
 alias gc='git commit -m'
+alias gp='git push'
+alias gf='git fetch'
+alias gm='git merge'
+alias g='git'
+alias br='git branch -r'
 
 thefuck --alias | source
