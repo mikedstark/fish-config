@@ -1,8 +1,7 @@
 # Fish Config
-
 alias c="clear"
 alias rr="source ~/.config/fish/conf.d/config.fish"
-alias ff="vim ~/.config/fish/conf.d/config.fish"
+alias ff="cd ~/.config/fish/"
 alias aa="vim ~/.config/fish/conf.d/config.fish"
 alias dev="cd ~/Developer"
 alias dd="cd ~/Desktop"
